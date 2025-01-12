@@ -5,6 +5,7 @@ public class Main {
 
         System.out.println("********************************************************");
         System.out.println("I am merely a sample maven project to study devops");
+        System.out.println("This code is from the JAVA APP itself");
         System.out.println("********************************************************");
     }
 }
