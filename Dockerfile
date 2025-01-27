@@ -1,4 +1,4 @@
-FROM openjdk
+FROM bitnami/java
 RUN echo $(pwd)
 RUN ls -l
 COPY ./target/sample-maven-project-1.0-SNAPSHOT.jar sample-maven-project-1.0-SNAPSHOT.jar
